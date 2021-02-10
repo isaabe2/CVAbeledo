@@ -52,11 +52,13 @@ header {
     max-width: 1000px;
     position: relative;
     margin: auto;
+    height: 10px;
   }
   
 
   .imagenes{
     display: none;
+
   }
 
 
@@ -66,15 +68,89 @@ header {
     height: 15px;
     width: 15px;
     margin: 0 2px;
-    background-color: #bbb;
+    background-color: #d9ffab;
     border-radius: 50%;
     display:inline-block;
     transition: background-color 0.6s ease;
     text-align: center;
     }
 
-.active, .dot:hover {
-  background-color: #717171;
+.dots{
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    
+  
 }
 
+.active, .dot:hover {
+  background-color: #819765;
+}
+
+.experience{
+    display: grid;
+    grid-template-columns: repeat(3,1fr) ;
+    border: #576842;
+    border-radius: 700px;
+    
+    
+    
+}
+
+h1{
+    text-align: center;
+    background-color: #d9ffab;
+    color: #576842;
+    display: inline-block;
+    font-weight: bold;
+    margin: 50px;
+    font-size: 70px;
+    margin-top: 80px;
+}
+
+.experience img{
+    height:100px; 
+    width: 100%;
+}
+.experience h2{
+    font-size: 40px;
+    margin: 5px 0;
+    background-color:#95998f;
+    text-align: center;
+    color: white;
+   
+
+}
+
+.experience p{
+    background-color:#95998f;
+    margin: 15px;
+    color: white;
+
+}
+
+.experience a{
+    color:#576842;
+    display: inline-block;
+    font-weight: bold;
+    margin: 7px;
+    text-align: center;
+    border-radius: 700px;
+}
+
+.experience a:hover{
+    text-decoration:underline;
+    
+}
+
+.facebook, .vine, .netflix{
+    margin-top: 10px;
+    margin: 50px;
+    background-color: #95998f;
+    
+}
+
+
+
+ 
       
